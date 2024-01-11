@@ -62,7 +62,7 @@ software:
   diskettes:
     server: https://diskettes.pcjs.org
   gamedisks:
-    server: /disks/gamedisks
+    server: https://gamedisks.pcjs.org
   harddisks:
     server: https://harddisks.pcjs.org
   miscdisks:
@@ -77,6 +77,3 @@ archive:
     server: https://msarchive.pcjs.org
   kb:
     server: https://jeffpar.github.io/kbarchive
-
-pcjs:
-  localdisks: true
