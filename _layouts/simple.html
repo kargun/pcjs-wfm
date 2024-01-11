@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: 'en-US' }}">
+{% include web/head.html %}
+<style>
+  div.lim {max-width: 70%;}
+</style>
+  <body>
+    <div class="lim">
+      {{ content }}
+    </div>
+{% include machines/scripts.html %}
+{% include web/scripts.html explorer="/tools/modules/web/explorer.js" %}
+  </body>
+</html>
