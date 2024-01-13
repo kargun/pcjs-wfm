@@ -47,6 +47,7 @@ exclude:
   - /software/pcx86/sys/dos/microsoft/1.25/src
   - /software/pcx86/sys/dos/microsoft/2.11/src
   - /tools/pc/disks
+  - /vendor
 
 softwareLocal:
   decdisks:
