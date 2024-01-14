@@ -42,7 +42,7 @@ exclude:
   - /package*.json
   - /.history
   - /.vscode
-  - /disks
+  # - /disks
   - /node_modules
   - /software/pcx86/sys/dos/microsoft/1.25/src
   - /software/pcx86/sys/dos/microsoft/2.11/src
@@ -70,3 +70,5 @@ archive:
     server: https://msarchive.pcjs.org
   kb:
     server: https://jeffpar.github.io/kbarchive
+
+incremental: true
