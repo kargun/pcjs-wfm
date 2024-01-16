@@ -1,5 +1,26 @@
-body {
+html, body {
+  height: 100%;
+  overflow: hidden;
   background-color: #75FB4C;
   background-image: url("../icons/wfm.png");
   background-repeat: repeat;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.lim {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Ensure this is the full height you want */
+}
+
+#ibm5170 {
+  width: 56.25vw;
+  max-width: 177.78vh;
+  max-height: 100vh;
 }
